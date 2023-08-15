@@ -1,0 +1,1 @@
+# socks-copypath.nvim
