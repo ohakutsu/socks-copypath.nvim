@@ -10,7 +10,7 @@ With [packer.nvim](https://github.com/wbthomason/packer.nvim)
 use({
   "ohakutsu/socks-copypath.nvim",
   config = function()
-    require('socks-copypath').setup({})
+    require('socks-copypath').setup()
   end
 })
 ```
@@ -20,7 +20,7 @@ use({
 First, you need to call `setup()` function.
 
 ```lua
-require("ohakutsu/socks-copypath.nvim").setup({})
+require("ohakutsu/socks-copypath.nvim").setup()
 ```
 
 ### Configuration
