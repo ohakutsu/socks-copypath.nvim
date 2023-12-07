@@ -17,7 +17,7 @@ function Api.copy_absolute_path(cfg)
 end
 
 function Api.copy_file_name(cfg)
-	local path = vim.fn["expand"]("%:t")
+	local path = vim.fn["expand"]("%:t:r")
 	set_register(cfg.register, path)
 	return path
 end
