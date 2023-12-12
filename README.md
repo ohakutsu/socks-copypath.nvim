@@ -4,6 +4,17 @@ A Neovim plugin for copying current file path.
 
 ## Installation
 
+With [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+```lua
+  {
+    "ohakutsu/socks-copypath.nvim",
+    config = function()
+      require("socks-copypath").setup()
+    end,
+  },
+```
+
 With [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
