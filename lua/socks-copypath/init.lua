@@ -22,6 +22,13 @@ function M.setup(cfg)
 	end, {
 		desc = "Copy relative path of current file",
 	})
+
+	vim.api.nvim_create_user_command("CopyFileName", function()
+		local path = api.copy_file_name(config:get())
+		print("Copied " .. path)
+	end, {
+		desc = "Copy name of current file",
+	})
 end
 
 return M

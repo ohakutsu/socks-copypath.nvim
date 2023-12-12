@@ -41,6 +41,8 @@ When you call the `setup()` function, the following commands are defined.
   - Copy full path of current file
 - `CopyRelativePath`
   - Copy relative path of current file
+- `CopyFileName`
+  - Copy name of current file without extension
 
 ## License
 
